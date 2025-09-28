@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('../assets/tourist1.jpg') no repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #be0000;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
